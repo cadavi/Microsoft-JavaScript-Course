@@ -1,0 +1,28 @@
+{
+  "name": "microsoft-javascript-course",
+  "version": "1.0.0",
+  "description": "Beginner's Series to: JavaScript",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "format": "prettier --write *.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cadavi/Microsoft-JavaScript-Course.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cadavi/Microsoft-JavaScript-Course/issues"
+  },
+  "homepage": "https://github.com/cadavi/Microsoft-JavaScript-Course#readme",
+  "devDependencies": {
+    "prettier": "^2.8.0"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2"
+  }
+}

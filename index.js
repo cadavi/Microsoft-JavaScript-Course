@@ -1,10 +1,13 @@
-const PLACE = "World";
-const GREETING = "Hello"
+require("dotenv").config();
 
-console.log(`${GREETING}, ${PLACE}`);
+const express = require("express");
+const app = express();
+const port = process.env.PORT;
 
-//VS
+app.get("/", (req, res) => {
+    res.send("Hello World!");
+});
 
-console.log('%s, %s', GREETING, PLACE);
-
-
+app.listen(port, () => {
+    console.log(`Example app listening at http://localhost:${port}`)
+});
